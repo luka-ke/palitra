@@ -12,7 +12,11 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
+3) make migrations:
+python manage.py makemigrations content
+python manage.py makemigrations modules
+python manage.py makemigrations user
+python manage.py migrate
 
 
 run the application: python manage.py runserver
